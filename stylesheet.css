@@ -1,0 +1,26 @@
+body{
+    color: #463366;
+    background-image:url("images/18410.jpg");
+    background-size:auto;
+}
+
+.header{
+    margin: 30px 50px;
+    padding: auto;
+}
+
+.menu ul{
+    text-align: right;
+    display:block ;
+    margin: 30px 50px;
+}
+
+.menu li{
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+.image img{
+    display: block;
+    margin: auto;
+}
