@@ -1,13 +1,14 @@
 body{
-    color: #463366;
     background-image:url("images/background.jpg");
     background-size:auto;
 }
 
 .header{
+    color:#16161a ;
     margin: 30px 50px;
     padding: auto;
 }
+
 
 .menu ul{
     text-align: right;
@@ -20,7 +21,17 @@ body{
     margin-bottom: 45px;
 }
 
+.menu a{
+    font-size: 25px;
+    color: #94a1b2;    
+}
+
 .image img{
-    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     margin: auto;
+    width: 300px;  
 }
