@@ -1,14 +1,19 @@
+@charset "utf-8";
+
 body{
     background-image:url("images/background.jpg");
     background-size:auto;
 }
 
-.header{
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow&family=Raleway:ital@1&display=swap');
+
+h1{ 
+    font-family: 'Raleway',  sans-serif;
+    font-size: 40px;
     color:#16161a ;
     margin: 30px 50px;
     padding: auto;
 }
-
 
 .menu ul{
     text-align: right;
@@ -23,7 +28,8 @@ body{
 
 .menu a{
     font-size: 25px;
-    color: #94a1b2;    
+    color: #16161a;
+    text-decoration: none;    
 }
 
 .image img{
